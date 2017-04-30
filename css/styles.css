@@ -10,6 +10,25 @@ background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fir
     
 }
 
+p{
+    color: black;
+    font-size: 14px;
+    text-align: left;
+}
+.wrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.movieinfo{
+    display: flex;
+    background: rgba(255, 255, 255, .5)
+}
+
+.links{
+    display: flex;
+    background: rgba(255, 255, 255, .5)
+}
 h1{
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 24px;
