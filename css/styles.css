@@ -31,7 +31,7 @@ h2{
 
 p{
     color: black;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.75;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -39,9 +39,9 @@ section{
     display: flex;
     flex-flow: column nowrap;
     width: 500px;
-    height: 200px;
+    height: 130px;
     text-align: center;
-    margin: 10px;
+    margin: 2px;
     padding: 30px;
 }
 .trailer {
