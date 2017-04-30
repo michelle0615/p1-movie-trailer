@@ -1,4 +1,12 @@
 /* Styling */
 body {
-    background: rgba(0, 240, 194, 0.71);
+    background:#2e2c3a;
+    align-content: center;
+}
+
+h1{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    
 }
