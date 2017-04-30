@@ -9,17 +9,32 @@ background: linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 
 background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
-
-p{
-    color: black;
-    font-size: 14px;
-    text-align: left;
-}
 .wrapper{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
 }
+h1{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    
+}
+
+p{
+    color: black;
+    font-size: 14px;
+    line-height: 1.75;
+}
+section{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 800px;
+    height: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
 .movieinfo{
     display: flex;
     background: rgba(255, 255, 255, .5)
@@ -28,10 +43,4 @@ p{
 .links{
     display: flex;
     background: rgba(255, 255, 255, .5)
-}
-h1{
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 24px;
-    color: white;
-    
 }
