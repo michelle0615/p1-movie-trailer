@@ -12,6 +12,7 @@ background: linear-gradient(#717173, #000000);
 #page-wrap {
     width: 800px;
     margin: 0 auto;
+    background-image: url('img/bianca.jpg');
 }
 
 }
