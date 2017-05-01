@@ -6,7 +6,8 @@
 }
 
 body {
-background: linear-gradient(#717173, #000000);    
+/*background: linear-gradient(#717173, #000000)*/
+background: url('../img/hurricane-bianca-del-rio.png');
 }
 
 #page-wrap {
