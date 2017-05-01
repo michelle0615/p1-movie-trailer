@@ -46,7 +46,23 @@ button{
    justify-content: flex-start;
 }
 
-h1, h2{
+h1 {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 45px;
+}
+
+span.word1{
+    color: white;
+}
+
+span.word2{
+    color:black;
+}
+
+h2{
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 24px;
     color: white;
