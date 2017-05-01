@@ -1,11 +1,17 @@
 /* Styling */
-*{
+*{  
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
+    justify-content: center;  
 }
+
 body {
 background: linear-gradient(#717173, #000000);    
+}
+
+#page-wrap {
+    width: 800px;
+    margin: 0 auto;
 }
 
 header {
@@ -39,29 +45,16 @@ button{
    justify-content: flex-start;
 }
 
-#page-wrap {
-    width: 800px;
-    margin: 0 auto;
-    background:url('');
-}
-
-}
-h1{
+h1, h2{
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 24px;
     color: white;
     
     
-}
-
-h2{
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 24px;
-    color: white;
 }
 
 p{
-    color: black;
+    color: white;
     font-size: 14px;
     line-height: 1.75;
     font-family: 'Source Sans Pro', sans-serif;
