@@ -5,14 +5,45 @@
     justify-content: center;
 }
 body {
-background: linear-gradient(#717173, #000000);
-    
+background: linear-gradient(#717173, #000000);    
+}
+
+header {
+  display: flex;
+  background-color: none;
+  width: 500px;
+  height: 285px;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 10px, 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.15);
+    }
+
+
+.flexcontainer {
+   
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
 }
 
 #page-wrap {
     width: 800px;
     margin: 0 auto;
-    background-image: url('img/bianca.jpg');
+    background:url('');
 }
 
 }
